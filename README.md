@@ -3,6 +3,8 @@ wechat enterprise api
 
 微信公共平台企业号版主动调用API
 
+修改构造函数，API调用需传参数Agentid
+
 ## 模块状态
 - [![NPM version](https://badge.fury.io/js/wechat-enterprise-api.png)](http://badge.fury.io/js/wechat-enterprise-api)
 - [![Build Status](https://travis-ci.org/node-webot/wechat-enterprise-api.png?branch=master)](https://travis-ci.org/node-webot/wechat-enterprise-api)

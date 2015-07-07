@@ -1,14 +1,14 @@
 {
-  "name": "wechat-enterprise-api",
-  "version": "0.0.10",
-  "description": "微信公共平台企业号版本Node API库",
+  "name": "anychat-enterprise-api",
+  "version": "0.0.1",
+  "description": "A nodejs module for WeChat Enterprise Account APIs",
   "main": "index.js",
   "scripts": {
     "test": "make test-all"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/node-webot/wechat-enterprise-api.git"
+    "url": "git@github.com:frankwaizi/anychat-enterprise-api.git"
   },
   "keywords": [
     "weixin",
@@ -30,7 +30,7 @@
     "rewire": "*",
     "istanbul": "*"
   },
-  "author": "Jackson Tian",
+  "author": "Frank Fan",
   "license": "MIT",
   "readmeFilename": "README.md",
   "directories": {
