@@ -3,7 +3,12 @@ wechat enterprise api
 
 微信公共平台企业号版主动调用API
 
-修改构造函数，API调用需传参数Agentid
+修改构造函数，创建API实例无需传入AgentID，只需调用时传入，如：
+```
+exports.createMenu = function (agentid, menu, callback) {
+  this.preRequest(this._createMenu, arguments);
+};
+```
 
 ## 模块状态
 - [![NPM version](https://badge.fury.io/js/wechat-enterprise-api.png)](http://badge.fury.io/js/wechat-enterprise-api)
